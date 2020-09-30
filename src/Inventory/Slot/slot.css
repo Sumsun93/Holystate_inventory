@@ -1,0 +1,12 @@
+.slot {
+  width: 105px;
+  height: 105px;
+  position: relative;
+  background-color: rgba(17, 17, 17, 1);
+  margin: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
