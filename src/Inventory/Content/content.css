@@ -2,6 +2,7 @@
   width: 934px;
   height: 753px;
   background-color: rgba(26, 26, 26, 1);
+  border: 1px solid rgba(255, 161, 1, 1);
 }
 
 .content_header {
@@ -39,6 +40,28 @@
   margin: 0;
   font-size: 50px;
   color: rgba(26, 26, 26, 1);
+}
+
+#actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#actions .icon_action {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(26, 26, 26, 1);
+  border-radius: 12px;
+  margin: 0 5px;
+  border: none;
+}
+
+#actions .icon_action:focus {
+  outline: none;
 }
 
 #content_items {

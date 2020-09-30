@@ -12,9 +12,6 @@ import Item from "../Item";
 import Gun1 from '../../images/Gun1.png';
 import Gun2 from '../../images/Gun2.png';
 import Gun3 from '../../images/Gun3.png';
-// import Keys_IMG from "../../images/Keys_IMG.png";
-// import id from "../../images/id-card.png";
-// import backpack_h from "../../images/backpack_h.png";
 
 import './weapons.css';
 
