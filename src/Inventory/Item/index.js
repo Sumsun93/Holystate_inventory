@@ -24,7 +24,7 @@ class Item extends React.Component {
     const { data } = this.props;
     return (
       <Drag {...this.props}>
-        <ContextMenuTrigger id={data.id.toString()}>
+        <ContextMenuTrigger id={data.id.toString()} holdToDisplay={-1}>
           <div className="item">
             {/* <img className="bg_stripes" src={bg_stripes} /> */}
             <img className="Item_IMG" src={Item_IMG} alt="item" />
