@@ -35,3 +35,28 @@
   font-size: 9px;
   color: rgba(255, 161, 1, 1);
 }
+
+.react-contextmenu-wrapper {
+  height: 100%;
+}
+
+.context_menu {
+  z-index: 100;
+  border-radius: 3px;
+  background-color: rgb(62 62 62);
+}
+
+.context_item {
+  padding: 5px 15px 5px 5px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+}
+
+.context_item:focus {
+  outline: none;
+}
+
+.context_item:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
